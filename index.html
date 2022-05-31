@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-nav">
+          <a class="header-nav__logo" href="#">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+          <div class="header-nav__info">
+            <a class="header-nav__profile" href="#">
+              <img src="img/person.svg" alt="profile logo" />
+            </a>
+            <a class="header-nav__heart" href="#">
+              <img src="img/heart.svg" alt="heart logo" />
+            </a>
+            <a class="header-nav__cart" href="#">
+              <img src="img/cart.svg" alt="profile logo" />
+            </a>
+          </div>
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Постельное белье</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Одежда для дома</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Одежда для улицы</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Выход</a>
+            </li>
+          </ul>
+          <button class="header-nav__btn">
+            <img src="img/btn.svg" alt="cart logo" />
+          </button>
+        </div>
+      </div>
+    </header>
+    
+    <main class="main">
+      <section class="content">
+        <div class="container">
+          <div class="content__inner">
+            <div class="content-slider">
+              <div class="content-slider__thumb">
+                <div class="content-slider__thumb-item">
+                  <img src="img/slider/1.png" alt="thumb logo" />
+                </div>
+                <div class="content-slider__thumb-item">
+                  <img src="img/slider/2.png" alt="thumb logo" />
+                </div>
+                <div class="content-slider__thumb-item">
+                  <img src="img/slider/3.png" alt="thumb logo" />
+                </div>
+                <div class="content-slider__thumb-item">
+                  <img src="img/slider/4.png" alt="thumb logo" />
+                </div>
+                <div class="content-slider__thumb-item">
+                  <img src="img/slider/5.png" alt="thumb logo" />
+                </div>
+              </div>
+
+              <div class="content-slider__big">
+                <div class="content-slider__big-item">
+                  <img src="img/slider/1.png" alt="big img" />
+                </div>
+                <div class="content-slider__big-item">
+                  <img src="img/slider/2.png" alt="big img" />
+                </div>
+                <div class="content-slider__big-item">
+                  <img src="img/slider/3.png" alt="big img" />
+                </div>
+                <div class="content-slider__big-item">
+                  <img src="img/slider/4.png" alt="big img" />
+                </div>
+                <div class="content-slider__big-item">
+                  <img src="img/slider/5.png" alt="big img" />
+                </div>
+              </div>
+            </div>
+            <div class="content-info">
+              <div class="content-info__wrapper">
+                <h1 class="content-info__title">Пижама для девочек</h1>
+                <div class="content-info__code">
+                  Арт.
+                  <div class="content-info__number">02765/46</div>
+                </div>
+                <div class="content-info__review">
+                  Отзывы
+                  <a class="content-info__review-link" href="#">
+                    <div class="star" data-reateyo-rating="4" readonly="readonly"></div>
+                    14 отзывов
+                    <svg
+                      width="10"
+                      height="15"
+                      viewBox="0 0 10 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 1L9 8L1 14.5" stroke="#333333" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="content-info__price">
+                  <div class="content-info__price-new">800 ₽</div>
+                  <div class="content-info__price-old">1 500 ₽</div>
+                  <a class="content-info__price-more" href="#">
+                    <svg
+                      width="10"
+                      height="15"
+                      viewBox="0 0 10 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M1 1L9 8L1 14.5" stroke="#333333" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="content-info__sale">
+                  <a class="content-info__sale-new" href="#"> скидка -36% </a>
+                  <a class="content-info__sale-old" href="#"> скидка -20% </a>
+                </div>
+                <form class="content-info__form" action="#">
+                  <label class="content-info__label">
+                    <select class="content-info__select">
+                      <option value="">Выбрать размер</option>
+                      <option value="">L</option>
+                      <option value="">S</option>
+                      <option value="">XL</option>
+                      <option value="">XXL</option>
+                    </select>
+                  </label>
+                </form>
+                <a class="content-info__span" href="#">Определить размер</a>
+                <form class="content-info__form" action="#">
+                  <label class="content-info__label">
+                    <input
+                      class="content-info__input"
+                      type="number"
+                      min="1"
+                      step="1"
+                      value="1"
+                    />
+                  </label>
+                  <div class="content-info__links">
+                    <a class="content-info__add" href="#"> Добавить в корзину </a>
+                    <a class="content-info__heart" href="#">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.90002 3.0948C6.69981 -2.52108 -2.59119 1.90389 1.76037 7.60175C6.11193 13.2996 8.40002 15.4908 8.40002 15.4908" stroke="white"/>
+                        <path d="M7.89415 3.0948C9.09435 -2.52108 18.7304 1.90389 14.3789 7.60175C10.0273 13.2996 7.70001 15.5 7.70001 15.5" stroke="white"/>
+                        <path d="M7.39099 2.70752L8.4043 2.70757L8.38337 3.24079H7.39099V2.70752Z" fill="white"/>
+                      </svg>
+                  </a>
+                  </div>
+                </form>
+                <a class="content-info__buy" href="#">Купить в 1 клик</a>
+              </div>
+              <div class="content-info__inner">
+                <ul class="content-info__list">
+                  <li class="content-info__item">
+                    <a class="content-info__link" href="#">
+                      <img src="img/clothes.svg" alt="clothes logo" />
+                      Описание товара
+                    </a>
+                  </li>
+                  <li class="content-info__item">
+                    <a class="content-info__link" href="#">
+                      <img src="img/clock.svg" alt="clock logo" />
+                      Доставка и возврат
+                    </a>
+                  </li>
+                  <li class="content-info__item">
+                    <a class="content-info__link" href="#">
+                      <img src="img/pay.svg" alt="pay logo" />
+                      Способы оплаты
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <a class="portfolio__more" href="#">Посмотреть все стили</a>
+          <div class="portfolio__content">
+            <div class="portfolio__item portfolio__card">
+              <img src="img/info/1.png" alt="portfolio images" />
+                <div class="portfolio__inner">
+                  <a class="portfolio__inner-full" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                    </svg>
+                  </a>
+                  <a class="portfolio__inner-all" href="#">
+                    <svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.74689 4.86865H12.2531C13.7116 4.86865 14.8604 6.11201 14.7453 7.56595L14.2203 14.1975C14.1174 15.4977 13.0323 16.5002 11.7281 16.5002H4.27189C2.96769 16.5002 1.88261 15.4977 1.77968 14.1975L1.25468 7.56595C1.13958 6.11201 2.2884 4.86865 3.74689 4.86865Z" stroke="#fff"/>
+                      <path d="M4.00005 9.5C4.00005 9.5 3.78335 1 8.00007 1C12.2168 1 12.0001 9.5 12.0001 9.5" stroke="#fff"/>
+                    </svg>
+                    Узнай, что на мне
+                  </a>
+                  <a class="portfolio__inner-like" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                      <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                      <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                      <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                    </svg>
+                    200
+                  </a>
+                </div>
+            </div>
+            <div class="portfolio__wrapper">
+              <div class="portfolio__card">
+                <img src="img/info/2.png" alt="portfolio images" />
+              <div class="portfolio__inner">
+                  <a class="portfolio__inner-full" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                    </svg>
+                  </a>
+                  <a class="portfolio__inner-all" href="#">
+                    <svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.74689 4.86865H12.2531C13.7116 4.86865 14.8604 6.11201 14.7453 7.56595L14.2203 14.1975C14.1174 15.4977 13.0323 16.5002 11.7281 16.5002H4.27189C2.96769 16.5002 1.88261 15.4977 1.77968 14.1975L1.25468 7.56595C1.13958 6.11201 2.2884 4.86865 3.74689 4.86865Z" stroke="#fff"/>
+                      <path d="M4.00005 9.5C4.00005 9.5 3.78335 1 8.00007 1C12.2168 1 12.0001 9.5 12.0001 9.5" stroke="#fff"/>
+                    </svg>
+                    Узнай, что на мне
+                  </a>
+                  <a class="portfolio__inner-like" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                      <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                      <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                      <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                    </svg>
+                    200
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio__card">
+                <img src="img/info/3.png" alt="portfolio images" />
+              <div class="portfolio__inner">
+                  <a class="portfolio__inner-full" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                    </svg>
+                  </a>
+                  <a class="portfolio__inner-all" href="#">
+                    <svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.74689 4.86865H12.2531C13.7116 4.86865 14.8604 6.11201 14.7453 7.56595L14.2203 14.1975C14.1174 15.4977 13.0323 16.5002 11.7281 16.5002H4.27189C2.96769 16.5002 1.88261 15.4977 1.77968 14.1975L1.25468 7.56595C1.13958 6.11201 2.2884 4.86865 3.74689 4.86865Z" stroke="#fff"/>
+                      <path d="M4.00005 9.5C4.00005 9.5 3.78335 1 8.00007 1C12.2168 1 12.0001 9.5 12.0001 9.5" stroke="#fff"/>
+                    </svg>
+                    Узнай, что на мне
+                  </a>
+                  <a class="portfolio__inner-like" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                      <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                      <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                      <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                    </svg>
+                    200
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio__card">
+                <img src="img/info/4.png" alt="portfolio images" />
+                <div class="portfolio__inner">
+                  <a class="portfolio__inner-full" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                    </svg>
+                  </a>
+                  <a class="portfolio__inner-all" href="#">
+                    <svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.74689 4.86865H12.2531C13.7116 4.86865 14.8604 6.11201 14.7453 7.56595L14.2203 14.1975C14.1174 15.4977 13.0323 16.5002 11.7281 16.5002H4.27189C2.96769 16.5002 1.88261 15.4977 1.77968 14.1975L1.25468 7.56595C1.13958 6.11201 2.2884 4.86865 3.74689 4.86865Z" stroke="#fff"/>
+                      <path d="M4.00005 9.5C4.00005 9.5 3.78335 1 8.00007 1C12.2168 1 12.0001 9.5 12.0001 9.5" stroke="#fff"/>
+                    </svg>
+                    Узнай, что на мне
+                  </a>
+                  <a class="portfolio__inner-like" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                      <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                      <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                      <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                    </svg>
+                    200
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio__card">
+                <img src="img/info/5.png" alt="portfolio images" />
+                <div class="portfolio__inner">
+                  <a class="portfolio__inner-full" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="0.5" y="2.5" width="13" height="13" rx="1.5" stroke="white"/>
+                        <path d="M2.33784 2.63126L2.33784 2.49958C2.33784 1.39501 3.23327 0.499584 4.33784 0.499585L13.5 0.49959C14.6045 0.49959 15.5 1.39502 15.5 2.49959L15.5 11.9382C15.5 12.9853 14.5159 13.7537 13.5 13.4997V13.4997" stroke="white"/>
+                    </svg>
+                  </a>
+                  <a class="portfolio__inner-all" href="#">
+                    <svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.74689 4.86865H12.2531C13.7116 4.86865 14.8604 6.11201 14.7453 7.56595L14.2203 14.1975C14.1174 15.4977 13.0323 16.5002 11.7281 16.5002H4.27189C2.96769 16.5002 1.88261 15.4977 1.77968 14.1975L1.25468 7.56595C1.13958 6.11201 2.2884 4.86865 3.74689 4.86865Z" stroke="#fff"/>
+                      <path d="M4.00005 9.5C4.00005 9.5 3.78335 1 8.00007 1C12.2168 1 12.0001 9.5 12.0001 9.5" stroke="#fff"/>
+                    </svg>
+                    Узнай, что на мне
+                  </a>
+                  <a class="portfolio__inner-like" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.42873 3.25725L9.76116 1.03654L13.1965 1.46595L14.5 3.63849V6.32062L8.01449 14.1959L1.93878 6.2507L1.05633 4.04458L2.34555 1.89588L5.35443 0.606363L7.61587 3.32009L8.06654 3.86089L8.42873 3.25725Z" fill="white" stroke="white"/>
+                      <path d="M7.9 3.0948C6.6998 -2.52108 -2.59121 1.90389 1.76035 7.60175C6.11191 13.2996 8.40001 15.4908 8.40001 15.4908" stroke="white"/>
+                      <path d="M7.89413 3.0948C9.09434 -2.52108 18.7304 1.90389 14.3788 7.60175C10.0273 13.2996 7.7 15.5 7.7 15.5" stroke="white"/>
+                      <path d="M7.39098 2.70752L8.40429 2.70757L8.38335 3.24079H7.39098V2.70752Z" fill="white"/>
+                    </svg>
+                    200
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.90002 3.0948C6.69981 -2.52108 -2.59119 1.90389 1.76037 7.60175C6.11193 13.2996 8.40002 15.4908 8.40002 15.4908" stroke="white"/>
+          <path d="M7.89415 3.0948C9.09435 -2.52108 18.7304 1.90389 14.3789 7.60175C10.0273 13.2996 7.70001 15.5 7.70001 15.5" stroke="white"/>
+          <path d="M7.39099 2.70752L8.4043 2.70757L8.38337 3.24079H7.39099V2.70752Z" fill="white"/>
+        </svg>
+
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-wrapper__card">
+            <p class="footer-wrapper__title">покупателям</p>
+            <ul class="footer-wrapper__list">
+              <li class="footer-wrapper__item">
+                <a class="footer-wrapper__link" href="#">Каталог</a>
+              </li>
+              <li class="footer-wrapper__item">
+                <a class="footer-wrapper__link" href="#">Акции</a>
+              </li>
+              <li class="footer-wrapper__item">
+                <a class="footer-wrapper__link" href="#">Бренды</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-wrapper__card">
+            <p class="footer-wrapper__title">о нас</p>
+            <ul class="footer-wrapper__list">
+              <li class="footer-wrapper__item">
+                <a class="footer-wrapper__link" href="#">О компании</a>
+              </li>
+              <li class="footer-wrapper__item">
+                <a class="footer-wrapper__link" href="#">Новости</a>
+              </li>
+              <li class="footer-wrapper__item">
+                <a class="footer-wrapper__link" href="#">Команда</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-wrapper__card">
+            <p class="footer-wrapper__title">
+              Узнайте первыми о новинках и акциях
+            </p>
+            <form class="footer-wrapper__form" action="#">
+              <input
+                class="footer-wrapper__input"
+                type="email"
+                placeholder="Адрес электронной почты"
+              />
+            </form>
+            <a class="footer-wrapper__subscribe" href="#">Подписаться</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
